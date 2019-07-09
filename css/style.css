@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: monospace;
+}
+
+.name{
+    margin-bottom: 70px;
+}
+
+.first-container h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #4AB19A;
+}
+
+.first-container p{
+    color: #4AB19A;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.first-container{
+    background-color: #E0EBE8;
+    padding-top: 200px;
+}
+
+.cloud1{
+    position: absolute;
+    right: 170px;
+    top: 150px;
+
+}
+
+.cloud2{
+    position: absolute;
+    top: 300px;
+    left: 190px;
+}
+
+.second-container{
+    margin-top: 100px;
+}
+
+.picture img{
+    height: 150px;
+    width: 150px;
+}
+
+.second-container h1{
+    padding: 20px 0;
+    color: #1E836C;
+}
+
+.second-container p{
+    font-size: 21px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.third-container{
+    margin: 100px 0;
+}
+
+.third-container h1{
+    color: #1E836C;
+}
+
+.skillrow1{
+    display: grid;
+    width: 50%;
+    margin: 50px auto;
+    grid-template-columns: 50% 50%;
+}
+
+.description{
+    padding-top: 10px;
+    text-align: left;
+}
+
+.description h2{
+    color: #1E836C;
+    padding-bottom: 20px;
+}
+
+.skillrow1 img{
+    height: 150px;
+    width: 150px;
+    padding-left: 80px;
+}
+
+.skillrow1 p{
+    font-size: 21px;
+}
+
+.fourth-container{
+    width: 50%;
+    margin: 0 auto 50px auto;
+}
+
+.skillrow2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.fourth-container img{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+}
+
+.description2{
+    text-align: left;
+    padding-top: 30px;
+}
+
+.description2 h2{
+    color: #1E836C;
+    padding-bottom: 20px;
+}
+
+.description2 p{
+    font-size: 21px;
+}
+
+.message-me{
+    margin: 150px auto;
+}
+
+.message-me h1{
+    color: #1E836C;
+}
+
+.message-me h2{
+    color: #4AB29A;
+    padding: 40px 0;
+}
+
+.message-me p{
+    font-size: 21px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+button{
+    margin: 50px 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: lightblue;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #1E836C;
+    color: white;
+}
+
+button i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: #C5DED7;
+    height: 100px;
+}
+
+footer p{
+    line-height: 100px;
+    font-size: 15px;
+}
